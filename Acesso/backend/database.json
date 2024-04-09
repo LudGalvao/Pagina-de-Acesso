@@ -1,0 +1,18 @@
+{
+  "Empresa": [
+    {
+      "id": 1,
+      "nome": "Empresa1",
+      "email": "empresa1@gmail.com",
+      "cnpj": "12345678910112",
+      "dataAcesso": "02/03/2024, 15:43:03"
+    },
+    {
+      "id": 2,
+      "nome": "Empresa2",
+      "email": "empresa2@gmail.com",
+      "cnpj": "12345678910114",
+      "dataAcesso": "03/03/2024, 12:30:45"
+    }
+  ]
+}
