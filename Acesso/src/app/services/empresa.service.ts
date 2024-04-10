@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
-import { Empresa } from '../model/Empresa';
+import { Empresa } from '../model/ListaCompartilhadaArquivo';
 
 @Injectable({
   providedIn: 'root'
@@ -13,7 +13,7 @@ export class EmpresaService {
 
 
   getEmpresas(): Observable<Empresa[]> {
-    return this.http.get<Empresa[]>(`${this.apiUrl}/Empresa`);
+    return this.http.get<Empresa[]>(`${this.apiUrl}/Empresa`).pipe;
   }
 
   getEmpresaById(id: number): Observable<Empresa> {

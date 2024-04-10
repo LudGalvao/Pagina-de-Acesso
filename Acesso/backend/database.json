@@ -1,18 +1,39 @@
 {
-  "Empresa": [
+  "listaCompartilhadaArquivo":[
     {
       "id": 1,
-      "nome": "Empresa1",
-      "email": "empresa1@gmail.com",
-      "cnpj": "12345678910112",
-      "dataAcesso": "02/03/2024, 15:43:03"
-    },
-    {
-      "id": 2,
-      "nome": "Empresa2",
-      "email": "empresa2@gmail.com",
-      "cnpj": "12345678910114",
-      "dataAcesso": "03/03/2024, 12:30:45"
+      "permissionamento": {
+        "permissionamento_id": 1,
+        "projeto-id": 1,
+        "disciplina_id":1,
+        "grupo_id": 1,
+        "permissionamento_tipo": "Tipo",
+        "arquivo_id": 1,
+        "etapa_id" : 1,
+        "usuario":{
+          "usuario_id": 1,
+          "usuario_tipo": "Tipo",
+          "usuario_nome": "Nome",
+          "usuario_email": "Email",
+          "usuario_cpf": "12345678911",
+          "usuario_cnpj": "1234567891133",
+          "usuario_endereco": "rua",
+          "usuario_status" : 1,
+          "usuario_cargo" : "cargo",
+          "empresa":{
+            "empresa_id" : 1,
+            "empresa_nome" : "nome",
+            "empresa_cnpj" : "1234567891122"
+          }
+        }
+      },
+      "lista_compartilhada": {
+        "lista_compartilhada_id": 1,
+        "lista_compartilhada_descricao": "descricao",
+        "lista_compartilhada_data" : "10/04/2024"
+      },
+      "lista_compartilhada_arquivo_acesso": "10/04/2024"
+      
     }
   ]
 }

@@ -1,8 +1,7 @@
-export interface Empresa {
-    id: number;
-    nome: string;
-    email: string;
-    cnpj: string;
-    dataAcesso: string;
-  }
-  
+export interface Empresa{
+    empresa: {
+        empresa_id: number,
+        empresa_nome: string,
+        empresa_cnpj: string
+    }
+}
