@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import {MatIconModule} from '@angular/material/icon';
 import { EmpresaService } from '../../services/empresa.service';
+import { Empresa } from '../../model/Empresa';
 
 @Component({
   selector: 'app-acesso-lateral',
@@ -11,5 +12,5 @@ import { EmpresaService } from '../../services/empresa.service';
 })
 
 export class AcessoLateralComponent {
-  constructor(private empresaService: EmpresaService) {} // Injete o serviço no construtor
+  constructor(private empresaService: EmpresaService) {} 
 }
