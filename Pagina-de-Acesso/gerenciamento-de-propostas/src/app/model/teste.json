@@ -1,0 +1,108 @@
+[{
+  "id": 1,
+  "lista_compartilhada":{
+      "id" : 1,
+      "descricao": "Proposta para a construção de um prédio",
+      "data": "02/03/2024"
+    },
+  "permissionamento":
+    {
+      "id": 1,
+      "projeto": {
+        "id": 1,
+        "descricao": "Projeto1"
+      },
+      "disciplina": {
+        "id": 1,
+        "nome": "Hidráulica"
+      },
+      "grupo_id": 1,
+      "arquivo_id": 1,
+      "etapa":{
+        "id": 1,
+        "descricao": "Etapa1"
+      },
+      "usuario_id": 1
+    }
+},
+{
+  "id": 3,
+  "lista_compartilhada":{
+      "id" : 1,
+      "descricao": "Proposta para a construção de um prédio",
+      "data": "02/03/2024"
+    },
+  "permissionamento":
+    {
+      "id": 2,
+      "projeto": {
+        "id": 1,
+        "descricao": "Projeto1"
+      },
+      "disciplina": {
+        "id": 1,
+        "nome": "Hidráulica"
+      },
+      "grupo_id": 1,
+      "arquivo_id":2,
+      "etapa":{
+        "id": 1,
+        "descricao": "Etapa1"
+      },
+      "usuario_id": 1
+    }
+},
+{
+  "id": 7,
+  "lista_compartilhada":{
+      "id" : 2,
+      "descricao": "Proposta para a construção de um prédio2",
+      "data": "03/03/2024"
+    },
+  "permissionamento":
+    {
+      "id": 2,
+      "projeto": {
+        "id": 1,
+        "descricao": "Projeto2"
+      },
+      "disciplina": {
+        "id": 1,
+        "nome": "Hidráulica"
+      },
+      "grupo_id": 1,
+      "arquivo_id":3,
+      "etapa":{
+        "id": 1,
+        "descricao": "Etapa1"
+      },
+      "usuario_id": 1
+    }
+},
+{
+  "id": 10,
+  "lista_compartilhada":{
+      "id" : 2,
+      "descricao": "Proposta para a construção de um prédio2",
+      "data": "03/03/2024"
+    },
+  "permissionamento":
+    {
+      "id": 4,
+      "projeto": {
+        "id": 1,
+        "descricao": "Projeto2"
+      },
+      "disciplina": {
+        "id": 1,
+        "nome": "Hidráulica"
+      },
+      "grupo_id": 1,
+      "arquivo_id":4,
+      "etapa":{
+        "id": 1,
+        "descricao": "Etapa1"
+      },
+      "usuario_id": 1
+    }
+}]

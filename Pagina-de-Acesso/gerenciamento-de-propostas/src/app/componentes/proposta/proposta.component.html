@@ -1,0 +1,36 @@
+<div class="container mx-auto p-4 mt-4 flex flex-col">
+  <div class="mb-6 flex items-center">
+    <mat-icon>folder_open</mat-icon>
+    <h1 style="margin-bottom: 0px; margin-left:10px;">{{propostas[0].lista_compartilhada.descricao}}</h1>
+  </div>
+
+  <div class="flex text-surface dark:text-white">
+    <div class="menu-lateral flex flex-col justify-start items-start mr-6">
+      <button id="botaoArq" class="w-60 p-4 rounded-lg bg-primary-100 text-primary-700 dark:bg-slate-900 dark:text-primary-500"
+       (click)="navegarParaArquivos()">Arquivos</button>
+       <button id="botaoAcesso" class="w-60 p-4" (click)="navegarParaAcesso()">Acesso</button>
+
+       <div class="Acesso">
+        <h3>Pessoas com Acesso</h3>
+        @for (item of propostas; track $index){
+          <mat-icon>person</mat-icon>
+          <h3>TESTE</h3>
+          <p>teste</p>
+        }
+       </div>
+    </div> 
+
+    <div>
+      @if (rota === 'arquivos') {
+        <app-proposta-arquivos [data]="propostas"></app-proposta-arquivos>
+
+      }
+      @if (rota === 'acesso') {
+        <app-proposta-acesso [data]="propostas"></app-proposta-acesso>
+      }
+    </div>
+
+  </div>
+
+</div>
+
