@@ -1,0 +1,219 @@
+{
+  "listas_compartilhadas_arquivo": [
+    {
+      "id": 1,
+      "lista_compartilhada": {
+        "id": 1,
+        "descricao": "Proposta para predio",
+        "data": "22/03/2024"
+      },
+      "permissionamento": {
+        "id": 1,
+        "projeto": {
+          "id": 1,
+          "nome": "Projeto1"
+        },
+        "disciplina": {
+          "id": 1,
+          "nome": "Hidraúlica"
+        },
+        "grupo_id": 1,
+        "arquivo": {
+          "id": 1,
+          "usuario_id": 1,
+          "descricao": "Arquivo1",
+          "data": "12/01/2024",
+          "versao": 1.0,
+          "link": "https://link.com",
+          "local_id": 1,
+          "projeto_id": 1,
+          "etapa_id": 1,
+          "arquivo_id_pai": null
+        },
+        "etapa": {
+          "id": 1,
+          "nome": "Etapa1"
+        },
+        "usuario": {
+          "usuario_id": 1,
+          "usuario_tipo": "Super-admin",
+          "usuario_nome": "Pedro",
+          "usuario_email": "empresa1@email.com",
+          "usuario_cpf": "70518349080",
+          "usuario_cnpj": "10028254000171",
+          "usuario_endereco": "rua teste",
+          "usuario_status": 1,
+          "usuario_cargo": "engenheiro",
+          "empresa": {
+            "empresa_id": 1,
+            "empresa_nome": "Empresa1",
+            "empresa_cnpj": "10028254000171"
+          }
+        }
+      },
+      "arquivo_acesso": "02/03/2024 - 15:43:03"
+    },
+
+    {
+      "id": 2,
+      "lista_compartilhada": {
+        "id": 1,
+        "descricao": "Proposta para predio",
+        "data": "22/03/2024"
+      },
+      "permissionamento": {
+        "id": 3,
+        "projeto": {
+          "id": 1,
+          "nome": "Projeto1"
+        },
+        "disciplina": {
+          "id": 1,
+          "nome": "Elétrica"
+        },
+        "grupo_id": 1,
+        "arquivo": {
+          "id": 2,
+          "usuario_id": 1,
+          "descricao": "Arquivo2",
+          "data": "12/01/2024",
+          "versao": 1.0,
+          "link": "https://link.com",
+          "local_id": 1,
+          "projeto_id": 1,
+          "etapa_id": 1,
+          "arquivo_id_pai": null
+        },
+        "etapa": {
+          "id": 1,
+          "nome": "Etapa1"
+        },
+        "usuario": {
+          "usuario_id": 2,
+          "usuario_tipo": "Super-admin",
+          "usuario_nome": "Diego",
+          "usuario_email": "empresa2@email.com",
+          "usuario_cpf": "57628079083",
+          "usuario_cnpj": "97483820000113",
+          "usuario_endereco": "rua teste",
+          "usuario_status": 1,
+          "usuario_cargo": "eletricista",
+          "empresa": {
+            "empresa_id": 2,
+            "empresa_nome": "Empresa2",
+            "empresa_cnpj": "97483820000113"
+          }
+        }
+      },
+      "arquivo_acesso": "03/03/2024 - 12:30:45"
+    },
+
+    {
+      "id": 9,
+      "lista_compartilhada": {
+        "id": 2,
+        "descricao": "Proposta para predio2",
+        "data": "22/03/2024"
+      },
+      "permissionamento": {
+        "id": 3,
+        "projeto": {
+          "id": 1,
+          "nome": "Projeto1"
+        },
+        "disciplina": {
+          "id": 1,
+          "nome": "Elétrica"
+        },
+        "grupo_id": 1,
+        "arquivo": {
+          "id": 2,
+          "usuario_id": 1,
+          "descricao": "Arquivo2",
+          "data": "12/01/2024",
+          "versao": 1.0,
+          "link": "https://link.com",
+          "local_id": 1,
+          "projeto_id": 1,
+          "etapa_id": 1,
+          "arquivo_id_pai": null
+        },
+        "etapa": {
+          "id": 1,
+          "nome": "Etapa1"
+        },
+        "usuario": {
+          "usuario_id": 3,
+          "usuario_tipo": "Super-admin",
+          "usuario_nome": "Mario",
+          "usuario_email": "empresa3@email.com",
+          "usuario_cpf": "84790468054",
+          "usuario_cnpj": "57808653000119",
+          "usuario_endereco": "rua teste",
+          "usuario_status": 1,
+          "usuario_cargo": "engenheiro",
+          "empresa": {
+            "empresa_id": 3,
+            "empresa_nome": "Empresa3",
+            "empresa_cnpj": "57808653000119"
+          }
+        }
+      },
+      "arquivo_acesso": "09/03/2024 - 17:00:34"
+    },
+
+    {
+      "id": 12,
+      "lista_compartilhada": {
+        "id": 2,
+        "descricao": "Proposta para predio2",
+        "data": "22/03/2024"
+      },
+      "permissionamento": {
+        "id": 3,
+        "projeto": {
+          "id": 1,
+          "nome": "Projeto1"
+        },
+        "disciplina": {
+          "id": 1,
+          "nome": "Elétrica"
+        },
+        "grupo_id": 1,
+        "arquivo": {
+          "id": 3,
+          "usuario_id": 1,
+          "descricao": "Arquivo3",
+          "data": "12/01/2024",
+          "versao": 1.0,
+          "link": "https://link.com",
+          "local_id": 1,
+          "projeto_id": 1,
+          "etapa_id": 2,
+          "arquivo_id_pai": null
+        },
+        "etapa": {
+          "id": 2,
+          "nome": "Etapa2"
+        },
+        "usuario": {
+          "usuario_id": 4,
+          "usuario_tipo": "Super-admin",
+          "usuario_nome": "Gabriel",
+          "usuario_email": "empresa4@email.com",
+          "usuario_cpf": "01935046004",
+          "usuario_cnpj": "39618819000152",
+          "usuario_endereco": "rua teste",
+          "usuario_status": 1,
+          "usuario_cargo": "eletricista",
+          "empresa": {
+            "empresa_id": 4,
+            "empresa_nome": "Empresa4",
+            "empresa_cnpj": "39618819000152"
+          }
+        }
+      },
+      "arquivo_acesso": "11/03/2024 - 14:09:57"
+    }
+  ]
+}
