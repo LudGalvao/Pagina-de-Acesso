@@ -16,3 +16,8 @@ npm i
 ~~~~node
 ng serve
 ~~~~
+
+#### rodar json server
+~~~~node
+npx json-server database.json
+~~~~~
