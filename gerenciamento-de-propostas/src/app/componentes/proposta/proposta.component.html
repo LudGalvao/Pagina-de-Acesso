@@ -1,0 +1,41 @@
+<div class="container mx-auto p-4 mt-4 flex flex-col">
+  <div class="mb-6 flex items-center">
+    <mat-icon>folder_open</mat-icon>
+    <h1 style="margin-bottom: 0px; margin-left:10px;">{{propostas[0].lista_compartilhada.descricao}}</h1>
+  </div>
+
+  <div class="flex text-surface dark:text-white">
+    <div class="menu-lateral flex flex-col justify-start items-start mr-6">
+      <button id="botaoArq" class="w-60 p-4 rounded-lg"
+       (click)="navegarParaArquivos()">Arquivos</button>
+       <button id="botaoAcesso" class="w-60 p-4 " (click)="navegarParaAcesso()">Acesso</button>
+
+       <div class="Acesso acesso">
+        <h3>Pessoas com Acesso</h3>
+        @for (item of propostas; track $index){
+          <div style="display: flex; align-items: center;">
+            <mat-icon>person</mat-icon>
+            <h4 class="textoEmpresa">{{item.permissionamento.usuario.empresa.empresa_nome}}</h4>
+        </div>
+          <p>{{item.permissionamento.usuario.usuario_email}}</p>
+        }
+        <button type="button" data-twe-ripple-init data-twe-ripple-color="light" class="flex items-center rounded bg-primary-600 px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-white shadow-primary-3 transition duration-150 ease-in-out hover:bg-primary-accent-300 hover:shadow-primary-2 focus:bg-primary-accent-300 focus:shadow-primary-2 focus:outline-none focus:ring-0 active:bg-primary-600 active:shadow-primary-2 motion-reduce:transition-none dark:shadow-black/30 dark:hover:shadow-dark-strong dark:focus:shadow-dark-strong dark:active:shadow-dark-strong botaoacesso">
+          <mat-icon class="mr-2">vpn_key</mat-icon>
+          Modificar acesso
+        </button>
+       </div>
+    </div> 
+
+    <div class="arquivos">
+      @if (rota === 'arquivos') {
+        <app-proposta-arquivos [data]="propostas"></app-proposta-arquivos>
+
+      }
+      @if (rota === 'acesso') {
+        <app-proposta-acesso [data]="propostas"></app-proposta-acesso>
+      }
+    </div>
+
+  </div>
+
+</div>

@@ -1,0 +1,65 @@
+.Acesso{
+    width: 257px;
+    height: 536px;
+    margin-left: 10px;
+    padding-top: 60px;
+    padding: 10px;
+    background-color: (0,120,157,255);
+    
+}
+
+#botaoArq{
+    border-top: 5px solid  rgb(229 229 229);
+    border-left: 5px solid  rgb(229 229 229);
+    border-right: 5px solid  rgb(229 229 229);
+    border-radius: 10px;
+    margin-left: 15px;
+}
+
+#botaoAcesso{
+    border-bottom: 5px solid  rgb(229 229 229);
+    border-left: 5px solid  rgb(229 229 229);
+    border-right: 5px solid  rgb(229 229 229); 
+    border-radius: 10px;
+    margin-left: 15px;   
+}
+
+
+
+.Acesso button{
+    margin-top: 240px;
+    margin-left: 15px;
+    
+    
+}
+
+.Acesso h3{
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 40px;
+    
+    
+}
+
+.textoEmpresa{
+    font-size: 16px;
+    margin-left: 8px;
+    margin-top: 20px;
+}
+
+.arquivos {
+    border: 5px solid  rgb(229 229 229); 
+    padding: 10px; 
+    margin: 10px; 
+    border-radius: 10px;
+    border-width: 25px;
+  }
+  
+  .acesso {
+    border: 3px solid  rgb(229 229 229); 
+    padding: 10px;
+    margin: 10px; 
+    border-radius: 15px;
+    
+  }
+  
