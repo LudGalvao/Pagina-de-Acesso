@@ -1,4 +1,4 @@
-# Pagina-de-Acesso-G-P <h1>
+# Pagina-de-Acesso<h1>
 
 Nome | Versão
 ----- | -----
